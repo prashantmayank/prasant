@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  height: 9vh;
+  width: 100%;
+  background-color: rgb(49, 84, 150);
+}
+.content {
+  height: 82vh;
+  width: 100%;
+
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  height: 9vh;
+  width: 100%;
+  background-color: rgb(206, 206, 214);
+}
+
+.header_left {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.header_left h3 {
+  color: white;
+  margin: 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.header_right {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header_right a {
+  margin: 0 35px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer p {
+  margin-left: 30px;
+}
+
+.tab {
+  table-layout: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.inner_cont {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner_cont h3 {
+  margin-left: 95px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.inner_cont h2 {
+  color: rgb(45, 240, 45);
+  align-self: center;
+}
+.tab td {
+  text-align: center;
+}
+
+.tab th {
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab tr {
+  height: 60px;
+}
